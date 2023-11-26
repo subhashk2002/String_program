@@ -10,7 +10,7 @@ public class countNo {
  //count each character except space 
         for(int i=0; i<str.length(); i++){
             if(str.charAt(i)!=' '){
-        count++;
+               count++;
             }
         }
         System.out.println("no of character is : "+count);
